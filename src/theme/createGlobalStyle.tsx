@@ -2,9 +2,28 @@ import React from 'react';
 import { css, Global } from '@emotion/core';
 import { withTheme } from 'emotion-theming';
 
-const makeGlobalStyles = (theme: object) => css`
+// eslint-disable-next-line no-unused-vars
+const makeGlobalStyles = (theme: any) => css`
   * {
     box-sizing: border-box;
+  }
+
+  body {
+    background: ${theme.bg};
+    margin: 0;
+    color: ${theme.text};
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 
