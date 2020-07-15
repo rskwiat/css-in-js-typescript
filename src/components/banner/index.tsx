@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-
 import StyledBanner from './styles';
 
 interface Props {
@@ -9,9 +9,7 @@ interface Props {
 const Banner = ({ text }: Props) => (
   <StyledBanner>
     <p>
-      Using the
-      <span>{text}</span>
-      Theme
+      Using the <span>{text}</span> Theme
     </p>
   </StyledBanner>
 );
