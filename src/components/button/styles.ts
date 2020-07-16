@@ -9,7 +9,6 @@ const StyledButton = styled.button`
   border-radius: .4rem;
   cursor: pointer;
   transition: color 250ms ease-in-out, background 250ms ease-in-out;
-
   &:hover {
     background: ${(props) => props.theme.text};
     color: ${(props) => props.theme.bg};

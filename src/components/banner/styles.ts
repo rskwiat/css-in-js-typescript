@@ -8,9 +8,7 @@ const StyledBanner = styled.div`
   position: relative;
   z-index: 5;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-
   margin: 0 0 2rem;
-
   p {
     margin: 0;
     font-size: 1.4rem;
@@ -19,7 +17,6 @@ const StyledBanner = styled.div`
       text-transform: capitalize;
     }
   }
-
 `;
 
 export default StyledBanner;
